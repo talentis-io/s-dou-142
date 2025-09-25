@@ -7,7 +7,7 @@ name: Candidate CI
         
         jobs:
           use-template:
-            uses: talentis-io/ci-cd-template/.github/workflows/react-run.yml@main
+            uses: talentis-io/ci-cd-templates/.github/workflows/react-run.yml@main
             with:
               repo_name: ${{ github.event.repository.name }}
             secrets: inherit
